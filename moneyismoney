@@ -1,8 +1,0 @@
-local player = game.Players.EzPScript
-     player.Chatted:connect(function(msg)
-      if msg == "freeze" then
-if not player then
-game.Players.LocalPlayer.Character.Head.Anchored = true
-end
-end
-end)
